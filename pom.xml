@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.aquadiva</groupId>
+		<artifactId>ad-ontology-selection</artifactId>
+		<version>0.0.2-SNAPSHOT</version>
+		<relativePath>../ad-ontology-selection</relativePath>
+	</parent>
+	<artifactId>ad-ontology-selection-reasoning</artifactId>
+	<name>AquaDiva Ontology Selection Reasoning Module</name>
+	<description>This project is dedicated to the ontology selection part in which reasoners are to be applied and testet to ontologies.</description>
+	<dependencies>
+		<dependency>
+			<groupId>de.aquadiva</groupId>
+			<artifactId>ad-ontology-selection-base</artifactId>
+			<version>${app-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.ansell.pellet</groupId>
+			<artifactId>pellet-owlapiv3</artifactId>
+			<version>2.3.6-ansell</version>
+		</dependency>
+	</dependencies>
+</project>
