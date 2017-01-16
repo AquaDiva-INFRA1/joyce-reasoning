@@ -13,11 +13,11 @@ import de.aquadiva.ontologyselection.reasoning.services.HermitReasonerScorer.Her
 import de.aquadiva.ontologyselection.reasoning.services.PelletReasonerScorer.PelletReasoner;
 import de.aquadiva.ontologyselection.reasoning.services.TrOWLReasonerScorer.TrOWLReasoner;
 
-public class OSReasoningModule {
+public class JoyceReasoningModule {
 
 	private ChainBuilder chainBuilder;
 
-	public OSReasoningModule(ChainBuilder chainBuilder) {
+	public JoyceReasoningModule(ChainBuilder chainBuilder) {
 		this.chainBuilder = chainBuilder;
 	}
 
