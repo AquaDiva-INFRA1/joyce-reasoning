@@ -1,4 +1,4 @@
-package de.aquadiva.ontologyselection.reasoning.services;
+package de.aquadiva.joyce.reasoning.services;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

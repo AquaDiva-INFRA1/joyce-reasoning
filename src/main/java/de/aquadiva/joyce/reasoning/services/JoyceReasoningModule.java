@@ -1,4 +1,4 @@
-package de.aquadiva.ontologyselection.reasoning.services;
+package de.aquadiva.joyce.reasoning.services;
 
 import java.util.List;
 
@@ -8,10 +8,10 @@ import org.apache.tapestry5.ioc.annotations.Marker;
 import org.apache.tapestry5.ioc.services.ChainBuilder;
 
 import de.aquadiva.joyce.base.services.IConstantOntologyScorer;
-import de.aquadiva.ontologyselection.reasoning.services.FactaReasonerScorer.FactaReasoner;
-import de.aquadiva.ontologyselection.reasoning.services.HermitReasonerScorer.HermitReasoner;
-import de.aquadiva.ontologyselection.reasoning.services.PelletReasonerScorer.PelletReasoner;
-import de.aquadiva.ontologyselection.reasoning.services.TrOWLReasonerScorer.TrOWLReasoner;
+import de.aquadiva.joyce.reasoning.services.FactaReasonerScorer.FactaReasoner;
+import de.aquadiva.joyce.reasoning.services.HermitReasonerScorer.HermitReasoner;
+import de.aquadiva.joyce.reasoning.services.PelletReasonerScorer.PelletReasoner;
+import de.aquadiva.joyce.reasoning.services.TrOWLReasonerScorer.TrOWLReasoner;
 
 public class JoyceReasoningModule {
 
