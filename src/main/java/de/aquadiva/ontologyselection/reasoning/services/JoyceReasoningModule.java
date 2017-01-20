@@ -7,7 +7,7 @@ import org.apache.tapestry5.ioc.ServiceBinder;
 import org.apache.tapestry5.ioc.annotations.Marker;
 import org.apache.tapestry5.ioc.services.ChainBuilder;
 
-import de.aquadiva.ontologyselection.base.services.IConstantOntologyScorer;
+import de.aquadiva.joyce.base.services.IConstantOntologyScorer;
 import de.aquadiva.ontologyselection.reasoning.services.FactaReasonerScorer.FactaReasoner;
 import de.aquadiva.ontologyselection.reasoning.services.HermitReasonerScorer.HermitReasoner;
 import de.aquadiva.ontologyselection.reasoning.services.PelletReasonerScorer.PelletReasoner;

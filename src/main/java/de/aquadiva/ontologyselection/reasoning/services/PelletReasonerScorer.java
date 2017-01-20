@@ -5,9 +5,9 @@ import java.lang.annotation.RetentionPolicy;
 
 import org.slf4j.Logger;
 
-import de.aquadiva.ontologyselection.base.data.IOntology;
-import de.aquadiva.ontologyselection.base.data.IOntologySet;
-import de.aquadiva.ontologyselection.base.services.IConstantOntologyScorer;
+import de.aquadiva.joyce.base.data.IOntology;
+import de.aquadiva.joyce.base.data.IOntologySet;
+import de.aquadiva.joyce.base.services.IConstantOntologyScorer;
 
 public class PelletReasonerScorer implements IConstantOntologyScorer {
 
