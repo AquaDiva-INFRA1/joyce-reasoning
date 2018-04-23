@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>joyce-reasoning</artifactId>
 	<name>AquaDiva Ontology Selection Reasoning Module</name>
-	<description>This project is dedicated to the ontology selection part in which reasoners are to be applied and testet to ontologies.</description>
+	<description>This project is dedicated to the ontology selection part in which reasoners are to be applied to and tested on ontologies.</description>
 	<dependencies>
 		<dependency>
 			<groupId>de.aquadiva</groupId>
